@@ -1,0 +1,61 @@
+@import '../../../styles/fontsCssVariables.css';
+@import '../../../styles/colorsCssVariables.css';
+
+.fav-parent-container {
+    height: calc(100vh - 2px);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.fav-title {
+    font-size: 25px;
+    font-family: var(--font2);
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.fav-list-parent-container {
+    min-height: fit-content;
+    max-height: calc(100vh - 100px);
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.fav-list-container {
+    height: 245px;
+    border: 1px solid #f3f3f3;
+    width: 180px;
+    background: var(--white-color);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.fav-poster-img {
+    border: 1px solid green;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.fav-movie-name {
+    font-family: var(--font2);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.5px;
+
+}

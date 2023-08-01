@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root {
+    --white-color: #ffffff;
+    --deep-black-color: #000000;
+    --default-background-color: rgba(223, 223, 224, 1);
+    --red-color: #ff0000;
+    --black-glass-color: rgba(0, 0, 0, 0.35);
+    --sub-text-color: rgba(127, 127, 127, 1);
+    --light-black-color1: rgba(21, 21, 21, 1);
+    --button-disabled-color: rgba(67, 67, 67, 0.5);
+    --text-black-color1: rgba(21, 21, 21, 0.5);
+    --default-blue-color: rgba(33, 150, 243, 1);
+    --box-shadow-color:#cfcfcf
+}

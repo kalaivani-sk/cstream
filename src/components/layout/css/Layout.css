@@ -1,0 +1,69 @@
+@import '../../../styles/fontsCssVariables.css';
+@import '../../../styles/colorsCssVariables.css';
+
+.layout-parent-container {
+    height: calc(100vh - 10px);
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.outlet-section {
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: auto;
+}
+
+.floating-footer-parent-container {
+    height: 50px;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    margin: calc(100vh - 65px) auto 0 auto;
+    background: var(--white-color);
+    -webkit-box-shadow: -1px 1.5px 32px 6.5px var(--box-shadow-color);
+    -moz-box-shadow: -1px 1.5px 32px 6.5px var(--box-shadow-color);
+    box-shadow: -1px 1.5px 32px 6.5px var(--box-shadow-color);
+    display: flex;
+    padding: 10px 25px 10px 25px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.footer-icon-parent-container {
+    display: flex;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 2px 20px 5px 20px;
+    box-sizing: border-box;
+    color: var(--white-color);
+    color: var(--deep-black-color);
+    transition: 0.3s;
+}
+
+.footer-icon-parent-container.active {
+    background: var(--deep-black-color);
+    display: flex;
+    color: var(--white-color);
+    transition: 0.3s;
+
+}
+
+.footer-icon-container {
+    margin-top: 2px;
+    font-size: 22px;
+}
+
+.footer-icon-name {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font2);
+    margin: 1px 0 0 10px;
+    color: var(--white-color);
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+}

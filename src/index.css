@@ -1,0 +1,12 @@
+@import './styles/fontsCssVariables.css';
+@import './styles/colorsCssVariables.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--default-background-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
